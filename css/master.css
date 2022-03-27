@@ -94,12 +94,10 @@ a:link:active, a:visited:active {
 }
 
 .intro img {
-  width: 114px;
-  height: 160px;
-  padding: 10px
-}
-
-.table-column {
+  width: 130px;
+  height: 172px;
+  padding-top: 5px;
+  margin-right: 20px
 }
 
 .table-column p {
@@ -116,7 +114,7 @@ a:link:active, a:visited:active {
 }
 
 .booking a {
-  padding: 10px;
+  padding: 10px 20px;
   font-size: 20px;
   border: 2px solid grey;
   border-radius: 10px;
@@ -124,7 +122,7 @@ a:link:active, a:visited:active {
   text-align: center;
 }
 
-.booking a:hover {
+.booking a:hover, .kepu-item:hover {
   color: #bae6e4;
   border: 2px solid #bae6e4;
 }
@@ -141,4 +139,25 @@ a:link:active, a:visited:active {
 .resume p {
   padding-left: 5px;
   padding-bottom: 5px;
+}
+
+/* ------ kepu section ------ */
+.kepu-main {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.kepu-item {
+  padding: 20px 20px 5px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  color: grey;
+  text-align: center;
+}
+
+.kepu-item img {
+  width: 150px;
+  height: 150px;
 }

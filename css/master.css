@@ -39,7 +39,7 @@ header h1 {
 }
 
 .material-icons {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 /* ------ nav section ------ */
@@ -120,11 +120,13 @@ a:link:active, a:visited:active {
   border-radius: 10px;
   color: grey;
   text-align: center;
+  box-shadow: 3px 3px 5px grey;
 }
 
 .booking a:hover, .kepu-item:hover {
   color: #bae6e4;
   border: 2px solid #bae6e4;
+  box-shadow: 3px 3px 5px #bae6e4;
 }
 
 .main-table {
@@ -147,13 +149,17 @@ a:link:active, a:visited:active {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap
 }
 
 .kepu-item {
+  width: 195px;
+  margin: 20px;
   padding: 20px 20px 5px;
   border: 2px solid grey;
   border-radius: 10px;
   color: grey;
+  box-shadow: 3px 3px 5px grey;
   text-align: center;
 }
 

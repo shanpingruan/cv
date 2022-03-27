@@ -61,9 +61,6 @@ header h1 {
   font-size: larger;
 }
 
-.nav-items:hover {
-}
-
 a:link, a:visited {
   color: black;
   text-decoration: none;
@@ -153,17 +150,13 @@ a:link:active, a:visited:active {
 }
 
 .kepu-item {
+  font-size: larger;
   width: 195px;
   margin: 20px;
-  padding: 20px 20px 5px;
+  padding: 20px;
   border: 2px solid grey;
   border-radius: 10px;
   color: grey;
   box-shadow: 3px 3px 5px grey;
   text-align: center;
-}
-
-.kepu-item img {
-  width: 150px;
-  height: 150px;
 }

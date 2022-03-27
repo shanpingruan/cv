@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+/* ------ header section ------ */
 header {
   padding: 2%;
   background-image: url("../images/tzyy.jpg");
@@ -32,18 +33,16 @@ header h1 {
   display: flex;
   flex-direction: row;
 }
+
 .home-icon {
   margin: 25px 10px
 }
+
 .material-icons {
   font-size: 40px;
 }
 
-.contents {
-  padding: 2%;
-  display: flex;
-  flex-direction: row;
-}
+/* ------ nav section ------ */
 
 .nav {
   width: 150px;
@@ -75,6 +74,20 @@ a:link:active, a:visited:active {
   color: black;
 }
 
+/* ------ main content section ------ */
+
+.contents {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .intro {
   display: flex;
   flex-direction: row;
@@ -93,6 +106,27 @@ a:link:active, a:visited:active {
   margin: 5px;
   padding: 0 30px;
   border: 1px solid lightgrey;
+}
+
+.booking {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.booking a {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  color: grey;
+  text-align: center;
+}
+
+.booking a:hover {
+  color: #bae6e4;
+  border: 2px solid #bae6e4;
 }
 
 .main-table {

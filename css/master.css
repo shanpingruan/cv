@@ -142,7 +142,7 @@ a:link:active, a:visited:active {
 }
 
 /* ------ kepu section ------ */
-.kepu-main, .kangzhen-main {
+.kepu-main, .kangzhen-main, .ability-main{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -167,4 +167,8 @@ a:link:active, a:visited:active {
 
 .kangzhen-main a {
   margin: 40px 10px 0;
+}
+
+.ability-main img {
+  max-width: 70%;
 }
